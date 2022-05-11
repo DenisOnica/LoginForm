@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #E5E4E2;
+    color: black;
+}
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.left-area{
+    background: url('./images/leaf.jpg') no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 35vw;
+}
+
+.random-text{
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    margin: 5rem 2rem 2rem 3rem;
+    padding: 2rem;
+}
+
+.right-area{
+    justify-content: center;
+}
+
+img[src]{
+    height: 80px;
+    width: 80px;
+}
+
+h1{
+    color: white;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: row;
+}
